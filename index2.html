@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo" class="fade-in" ><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill=" #01fa04"><path d="M240-240v-480h80v480h-80Zm160 0 400-240-400-240v480Zm80-141v-198l165 99-165 99Zm0-99Z"/></svg></a>
+        <a href="#" class="sidebar1" class="fade-in" ><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill=" #01fa04"><path d="M480-80 320-240l56-57 64 64v-171q-69-14-114.5-68.5T280-600q0-83 58.5-141.5T480-800q83 0 141.5 58.5T680-600q0 73-45.5 127.5T520-404v171l64-63 56 56L480-80Zm0-400q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0-120Z"/></svg></a>
+        <div class="showbar">
+          <a href="#" class="sidebar" class="fade-in" ><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#01fa04"><path d="M480-160q-83 0-141.5-58.5T280-360q0-73 45.5-127.5T440-556v-171l-64 63-56-56 160-160 160 160-56 57-64-64v171q69 14 114.5 68.5T680-360q0 83-58.5 141.5T480-160Zm0-80q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0-120Z"/></svg></a>
+          <a href="index.html" class="active"> Home</a>
+          <a href="index1.html" class="fade-in">Skills</a>
+          <a href="index2.html" class="fade-in">Education</a>
+          <a href="index3.html" class="fade-in">Experience</a>
+          
+         
+        </div>
+
+        <nav>
+           
+           
+            <a href="index.html" class="fade-in" > Home</a>
+            <a href="index1.html" class="fade-in">Skills</a>
+            <a href="#" class="active" class="fade-in">Education</a>
+            <a href="index3.html" class="fade-in">Experience</a>
+            
+        </nav>
+    </header>
+    <section class="home" class="fade-in">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h3>High-<span>School</span><div class="cursor">|</div></h3>
+            <p><span id="heading"> Institute Name : </span>New Indus Valley Residential School.
+            </p>
+
+               <p><span id="heading">Graduation Year :</span> 2020<br>
+
+                    <h2 style="font-size: 20px; text-decoration:solid;">Key Achievements:</h2>
+                    <li>Percentage: 89% <br></li>
+                    <li>Extracurricular Activities: Sports captain, Dancer.<br></li>
+                    <li> Previously engaged in various art and paper-related projects during 10th grade.<br></li>
+                        
+                </p><br>
+                    <hr>
+
+                    <h3>Pre<span>-University</span><div class="cursor">|</div></h3>
+                    <p><span id="heading"> Institute Name : </span>New Horizon Pu College.
+                    </p>
+                    <p><span id="heading"> Degree : </span>PCMC
+                    </p>
+        
+                       <p><span id="heading">Graduation Year :</span> 2022<br>
+        
+                            <h2 style="font-size: 20px; text-decoration:solid;">Key Achievements:</h2>
+                            <li>Percentage: 93.6% <br></li>
+                            <li>Extracurricular Activities: Participated in Local Cricket Tournaments.<br></li>
+                            <li> Honors: National Honor Society.<br></li>
+                                
+                        </p><br>
+                            <hr>
+
+                            <h3>Technical<span>-University</span><div class="cursor">|</div></h3>
+                            <p><span id="heading"> Institue Name :</span>University Visvesvarya College Of Engineering.
+                            </p>
+                            <p><span id="heading"> Degree : </span>Information Science and Engineering.
+                            </p>
+                
+                               <p><span id="heading">Expected Graduation Year :</span> 2026<br>
+                
+                                    <h2 style="font-size: 20px; text-decoration:solid;">Key Achievements:</h2>
+                                    <li>GPA: 8 <br></li>
+                                    <li>Extracurricular Activities:Core Member of the Dance Club, contributing to choreography and performance.<br></li>
+                                    <li>Event Participation: CodeFury 6.0, CodeFury 7.0, Kagada 2023.<br>
+        
+                                    </li>
+
+                                                           
+                                        
+                                </p><br>
+                                    <hr>
+            </div>
+            <!---<a href="#" class="btn">Connect</a>-->
+        </div>
+        
+    </section>
+    <style>
+
+        li{
+            font-size: 15px;
+        }
+
+        /*--------------line-----------------*/
+hr {
+            border: 0;
+            height: 1px;
+            background: #333;
+            margin: 20px 0;
+        }
+        .fade-in{
+            animation:fadeIN 1s ease-in-out;
+        }
+        @keyframes fadeIN{
+            from{opacity:0;}
+            to{opacity: 1;} 
+
+        }
+
+
+        .fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+    </style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const links = document.querySelectorAll("nav a");
+      
+      links.forEach(link => {
+        link.addEventListener("click", function(event) {
+          event.preventDefault(); // Prevent default link behavior
+  
+          const targetUrl = this.href;
+          document.body.classList.add("fade-out");
+  
+          setTimeout(() => {
+            window.location.href = targetUrl;
+          }, 500); // Match the duration of the transition
+        });
+      });
+    });
+  
+  </script>
+   <script src="showbar.js"></script>
+</body>
+</html>

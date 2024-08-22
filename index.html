@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo" class="fade-in" ><svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill=" #01fa04"><path d="M240-240v-480h80v480h-80Zm160 0 400-240-400-240v480Zm80-141v-198l165 99-165 99Zm0-99Z"/></svg></a>
+        <a href="#" class="sidebar1" class="fade-in" ><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill=" #01fa04"><path d="M480-80 320-240l56-57 64 64v-171q-69-14-114.5-68.5T280-600q0-83 58.5-141.5T480-800q83 0 141.5 58.5T680-600q0 73-45.5 127.5T520-404v171l64-63 56 56L480-80Zm0-400q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0-120Z"/></svg></a>
+        <div class="showbar">
+          <a href="#" class="sidebar" class="fade-in" ><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#01fa04"><path d="M480-160q-83 0-141.5-58.5T280-360q0-73 45.5-127.5T440-556v-171l-64 63-56-56 160-160 160 160-56 57-64-64v171q69 14 114.5 68.5T680-360q0 83-58.5 141.5T480-160Zm0-80q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0-120Z"/></svg></a>
+          <a href="index.html" class="active"> Home</a>
+          <a href="index1.html" class="fade-in">Skills</a>
+          <a href="index2.html" class="fade-in">Education</a>
+          <a href="index3.html" class="fade-in">Experience</a>
+          
+         
+        </div>
+        <nav>
+            <a href="#" class="active" class="fade-in"> Home</a>
+            <a href="index1.html" class="fade-in">Skills</a>
+            <a href="index2.html" class="fade-in">Education</a>
+            <a href="index3.html" class="fade-in">Experience</a>
+           
+        </nav>
+       
+      
+    </header>
+   
+        
+   
+    <section class="home" class="fade-in">
+        <div class="home-img">
+            <img src="/images/photo.jpg" >
+        </div>
+        <div class="home-content" >
+            <h1>Hi, I'm <span>Akshith V.</span></h1>
+            <h3 class="typing-text" > A <span></span><div class="cursor">|</div></h3>
+            <p>As a beginner and dedicated <span>Front-End</span> developer, I thrive on building creative and fluid front pages. My journey in the world of development began with a  curiosity to understand how things work under the hood, which quickly evolved into a deep-seated passion for crafting elegant designs and creating its responsivity. Curently I am learning <span>Back-End</span> develpoment and would like to gain proficiency at it.</p>
+            <div class="social-icons" >
+                <h2>Connect <span>[</span>
+                <a href="https://github.com/Tagcod3r"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/_akshi8h?igsh=d2t4ZmR0ZXNpZXZ6"><i class="fa-brands fa-instagram"></i></a> 
+                <a href="https://www.linkedin.com/in/akshith-v-b0144525b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i>></i></a><span>]</span></h2>
+                
+            </div>
+            <!---<a href="#" class="btn">Connect</a>-->
+        </div>
+        
+        
+    </section>
+    <style>
+        .fade-in{
+            animation:fadeIN 1s ease-in-out;
+        }
+        @keyframes fadeIN{
+            from{opacity:0;}
+            to{opacity: 1;} 
+
+        }
+
+
+      
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+
+      
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const links = document.querySelectorAll("nav a");
+          
+          links.forEach(link => {
+            link.addEventListener("click", function(event) {
+              event.preventDefault(); // Prevent default link behavior
+      
+              const targetUrl = this.href;
+              document.body.classList.add("fade-out");
+      
+              setTimeout(() => {
+                window.location.href = targetUrl;
+              }, 500); // Match the duration of the transition
+            });
+          });
+        });
+      
+      </script>
+      <script src="showbar.js"></script>
+</body>
+</html>
