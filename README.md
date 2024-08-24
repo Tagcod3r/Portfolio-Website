@@ -12,7 +12,7 @@ I understand it might be inconvenient to open the link and explore my site direc
 The home page features:
 - **A Brief Introduction**: A small description about myself.
 - **A Clean and Modern Design**: A visually appealing layout that highlights my work with a fresh, contemporary look.
-- **Contact Information**: Easy-to-find contact details and a form for inquiries, enabling visitors to get in touch directly.
+- **Contact Information**: Easy-to-find contact details for inquiries, enabling visitors to get in touch directly.
 
 ## Navbar
 ![Navbar](https://github.com/user-attachments/assets/b8b742f4-7af9-4099-8b74-21d5cbf96b01)
@@ -20,7 +20,7 @@ The home page features:
 The navbar includes:
 - **Skills**: Information about my skills.
 - **Education**: Details of my educational background.
-- **Experience**: A summary of my professional experience.
+- **Experience**: A summary of my overall experience.
 
 ## Responsive Design
 
