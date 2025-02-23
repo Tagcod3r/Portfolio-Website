@@ -45,6 +45,7 @@ In summary, my portfolio website demonstrates a high level of responsiveness, of
 
 ## For More Information
 
-Visit my portfolio website at [byakshith](https://byakshith.netlify.app/).
+Visit my portfolio website at [byakshith](https://byakshith.netlify.app/)
+
 
 
